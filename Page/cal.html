@@ -82,7 +82,6 @@
             <li>30</li>
             <li class="month-next">1</li>
         </ul>
-
     </div>
     <div class="option">
     <h3>Color</h3>
@@ -148,7 +147,9 @@
         </label>
     </div>
     <button class="button">Save options</button>
+    <button class="button" onclick="openForm2()">Export</button>
 </div>
+
 <div class="form-popup" id="myForm">
     <form action="/action_page.php" class="form-container">
         <h2 style="text-align: center">Events</h2>
@@ -160,15 +161,33 @@
         <button type="submit" class="button">Add</button>
         <button type="button" class="button" onclick="closeForm()"><i class="fa fa-close"></i></button>
     </form>
+
+</div>
+
+
+<div class="form-popup" id="myForm2">
+    <form action="/action_page.php" class="form-container">
+        <button type="submit" class="button">Export text</button>
+        <button type="submit" class="button">Export JSON</button>
+        <button type="submit" class="button">Export XML</button>
+        <button type="button" class="button" onclick="closeForm2()"><i class="fa fa-close"></i></button>
+    </form>
 </div>
 <script>
     function openForm() {
         document.getElementById("myForm").style.display = "block";
     }
+    function openForm2() {
+        document.getElementById("myForm2").style.display = "block";
+    }
 
     function closeForm() {
         document.getElementById("myForm").style.display = "none";
     }
+    function closeForm2() {
+        document.getElementById("myForm2").style.display = "none";
+    }
 </script>
+
 </body>
 </html>

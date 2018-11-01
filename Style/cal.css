@@ -1,0 +1,269 @@
+
+body{
+background-color: #EED8C9;
+}
+
+.intro{
+    width: 25%;
+    float: left;
+    background-color: #dcccc8;
+    display: grid;
+    height: -webkit-fill-available;
+    font-size: 1em;
+    color: #5d5b62;
+    font-family: "Arial";
+
+}
+                            /*Widgetul*/
+.coca{
+    width: 75%;
+    float: left;
+    display: inline-flex;
+}
+
+
+                            /*Calendarul*/
+.calendar{
+    align-content: center;
+    width: fit-content;
+    -webkit-transform:scale(0.75);
+    -moz-transform:scale(0.75);
+    -ms-transform:scale(0.75);
+    transform:scale(0.75);
+    margin: auto;
+    display: grid;
+}
+header {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    justify-content: center;
+    margin-bottom: 2em;
+    color: black;
+    min-height: 5vh;
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0;
+    font-size: 1em;
+}
+
+ul.weekdays {
+    margin-bottom: 1em;
+}
+
+ul.weekdays li {
+    height: 1vw;
+    width: 5vw;
+}
+
+ul.day-grid li {
+    background-color: #fda592;
+    border: 1px solid #eaeaea;
+    height: 5vw;
+    width: 5vw;
+    max-height: 125px;
+}
+ul.day-grid li:hover{
+    background-color: #dc8673;
+    cursor: pointer;
+}
+ul.day-grid li:active{
+    background-color: #dc8673;
+}
+ul.weekdays abbr[title] {
+    border: none;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+ul.day-grid li:nth-child(1),
+ul.day-grid li:nth-child(2),
+ul.day-grid li:nth-child(3),
+ul.day-grid li:nth-child(4),
+ul.day-grid li:nth-child(35) {
+    background-color: #fff;
+}
+
+
+
+                  /*Customizarea*/
+    option {
+        display: inline-grid;
+        align-content: center;
+        margin: auto;
+        width: min-content;
+    }
+
+
+    /* Containerul optiunilor */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* checkbox default ascuns */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    /* Checkbox custom */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+    }
+
+    .container input:checked ~ .checkmark {
+        background-color: #E99787;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .button {
+        background-color: #E99787;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+/*Pop-upul pentru evenimente*/
+
+
+/* popup form - ascuns */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Stilizam containerul formei */
+.form-container {
+    max-width: fit-content;
+    padding: 5px;
+    background-color: #dcccc8;
+}
+
+
+.form-container .btn {
+    background-color: #E99787;
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+
+ul.todo li{
+    width: 100%;
+    font-size: 1em;
+    display: block;
+}
+ul.todo li.checked {
+    color: #000000;
+    text-decoration: line-through;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width: 768px) {
+    .intro{
+        width: 100%;
+        height: fit-content;
+    }
+    .coca{
+        width: 100%;
+        display: block;
+
+    }
+    .calendar{
+        width: 100%;
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        transform:scale(1);
+    }
+    .container{
+        display: inline-block;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+}
+@media all and (max-width: 1300px) {
+    ul {
+        grid-gap: .25em;
+    }
+
+    ul.weekdays li {
+        font-size: 0;
+    }
+
+    ul.weekdays > li abbr:after {
+        content: attr(title);
+        font-size:calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+        text-align: center;
+    }
+}
