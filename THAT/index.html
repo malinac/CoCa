@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <article resource="#" typeof="schema:ScholarlyArticle"  >
+       <header>
+       <h1 property="schema:name" style= "text-align: center;font-family: 'Brush Script MT';font-size: 3em;color: crimson;">Coca COOL Calendar</h1>
+       <p role="doc-subtitle" property="schema:alternateName" >
+          The Future of the Smart Calendars
+       </p>
+       </header>
+        
+       <meta property="schema:accessibilityFeature" content="alternativeText">
+       <meta property="schema:accessibilityFeature" content="MathML">
+       <meta property="schema:accessibilityHazard" content="noFlashingHazard">
+     </article>
+    
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widh=device-width, initial-scale=1.0, user-sclable=yes">
+        <title>Coca Scholarly Report</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        
+        
+        <div role="contentinfo">
+            <ol role="directory">
+               <li>
+                 <a href="#abstract">
+                     Abstract
+                   </a>
+                </li>
+               <li>
+                 <a href="#introduction">
+                     Introduction
+                   </a>
+                </li>
+                <li>
+                 <a href="#structure">
+                     Ideas,concepts of the general interface
+                   </a>
+                </li>
+                <li>
+                 <a href="#user">
+                     User Interaction
+                   </a>
+                </li>
+                 <li>
+                 <a href="#code">
+                     Managing the source-code
+                   </a>
+                </li>
+                 <li>
+                 <a href="#conclu">
+                     Conclusions
+                   </a>
+                </li>
+            
+            </ol>
+        
+        
+        </div>
+   
+        
+        
+        <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+            <h2>
+              <span>1. </span>
+                Abstract
+            </h2>
+            <p>
+            This document describes how 'Coca - COOL Calendar' works and how is encoded.
+            
+            </p>
+        
+        </section>
+        
+        
+        
+        
+         <section id="introduction" role="doc-introduction">
+           <h2>
+              <span>2. </span>
+                Introduction
+            </h2>
+        
+           <p>
+             Coca is a widget created by two studets from the Faculty of Computer Science . This would be the perfect planner for the user's time, perfect reminder of the birthdays and important eveniments where the user should be at a specific time.
+             
+             </p>
+             <p>
+             
+                 Also the user can choose the way calendar will look for him by setting the color, font size and the dimention of it.
+             </p>
+
+         </section>
+         
+        
+        
+        
+        <section id="structure" >
+           <h2>
+              <span>3. </span>
+                Ideas,concepts of the general interface
+            </h2>
+            <p>
+            
+                The first idea for creating the cool calendar was to create something simple , easy to use and to be created in a clasic way.
+                
+            </p>
+            <p>
+             Here you can see our first prototipe:
+            </p>
+            <img alt="First concept " src="img/first.jpg" />
+            
+             <p>
+            
+                 As we wanted the calendar to be a cool one , we've add a bit color to it and a strong logo and a good motivation why you should use it.                 
+            </p>
+            <p>
+             
+                In the following image you can see our progress until now, how we create the responsive interface within the standard HTML and CSS:
+            </p>
+            <img alt="Interface implementation " src="img/second.png" />
+        </section>
+        
+        
+        
+        <section id="user" >
+           <h2>
+              <span>4. </span>
+                User Interaction
+            </h2>
+            <p>
+            
+                The structure of the widget has been created simple so all end users will be able to use is without any problems.
+                The option to edit it as specified in the main page clearly, the format of the calendar is as big as the users will be able to see the events that are saved on some specific dates.
+            </p>
+        </section>
+        
+        
+        
+        
+        <section id="code" >
+           <h2>
+              <span>5. </span>
+                Managing the source-code
+            </h2>
+            <p>
+             The source code for the interfae shown in the second image will be structured like this : 
+            </p>
+            <p>
+            
+                The felt side where we have the logo and the motivation has been made like this : 
+            </p>
+            <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
+             <div class="boxed">  <xmp>
+                   
+     <div class="intro">
+         <h1 style= "text-align: center;font-family: 
+               'Brush Script MT';font-size: 3em;color: crimson;">Coca</h1>
+          <h2 style="text-align: center">
+               Your much needed planner.</h2>
+          <p style="text-align: center">
+               With Coca, remembering your friend's birthday won't be a chore anymore.</p>
+          <p style="text-align: center">
+               You can customize colors, fonts size, dimension and everything in between, 
+               so that it's easier to keep track of parties, work meetings and daily tasks.</p>
+          <p style="text-align: center">
+               It's easy, it's intuitive! Start planning today!</p>
+    </div>
+                        
+
+                 </xmp></div>
+              </figure>
+            
+            <p>
+            
+                The calendar html part was made like this :
+            </p>
+            <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
+             <div class="boxed">  <xmp>
+                   <div class="coca">
+    <div class="calendar">
+        <header>
+            <h1>November 2018</h1>
+        </header>
+
+        <ul class="weekdays">
+            <li>
+                <abbr title="S">Sunday</abbr>
+            </li>
+            <li>
+                <abbr title="M">Monday</abbr>
+            </li>
+            <li>
+                <abbr title="T">Tuesday</abbr>
+            </li>
+            <li>
+                <abbr title="W">Wednesday</abbr>
+            </li>
+            <li>
+                <abbr title="T">Thursday</abbr>
+            </li>
+            <li>
+                <abbr title="F">Friday</abbr>
+            </li>
+            <li>
+                <abbr title="S">Saturday</abbr>
+            </li>
+        </ul>
+
+        <ul class="day-grid">
+            <li class="month=prev">28</li>
+            <li class="month=prev">29</li>
+            <li class="month=prev">30</li>
+            <li class="month=prev">31</li>
+            <li onclick="openForm()">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li class="month-next">1</li>
+        </ul>
+
+            
+            
+            </xmp></div>
+              </figure>
+        </section>
+        
+        
+        <section id="conclu" >
+           <h2>
+              <span>6. </span>
+                Conclusions
+            </h2>
+            <p>
+            
+                Our Coca widget , until now ,is is only a responsive interface, it is like a little child that will grow until the end of this semester. 
+            </p>
+        </section>
+
+  
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
