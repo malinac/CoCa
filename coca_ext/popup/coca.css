@@ -51,8 +51,7 @@ header {
     z-index: 10;
 }
 
-.section-container {
-    display: flex;
-    overflow: hidden;
-    height: 432px;
+.events-section {
+    display: inline-block;
+    margin: 10px;
 }
