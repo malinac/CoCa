@@ -109,10 +109,16 @@
             <h3>Export Data </h3>
             <p>The user should be able to request exporting data in any format that is according to the iCalendar standard. The iCalendar standard is an open standard for exchanging calendar and scheduling information between users and computers. This thing is possible through the Export button. </p>
             <h3>Event handler</h3>
-            <h3>taking over data</h3>
             <p>
-                The first idea for creating the cool calendar was to create something simple , easy to use and to be created in a clasic way.
+                The purpose of this widget isn't to be a calendar per se, but a scheduler. Therefore, it must be able to store the dates and the events that are relevant for the user, in a friendly and intuitive way. Also, it should notify the user about the events that are due on a current day.
             </p>
+            <p>
+                In order to achieve this, we are going to use the Notification API, which is used to configure and display desktop notifications to the user.
+            </p>
+            <h3>Storing our data</h3>
+            <p> Inside our application, we need to store data such as user's color preference, or an event. Since our project is a client-side application, we won't rely on a server database. What we will do, is use JavaScript APIs that will allow us to store data on the client (on the user's machine) and the retrieve it when needed.</p>
+            <p> One way to do this is by using cookies. Since the early days of the web, sites have used cookies to store information to personalize user experience on websites. However, they are outdated and rather problematic, so we won't use them.</p>
+            <p> What we chose to do is using the Web Storage Api, which provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.</p>
             <p>
              Here you can see our first prototipe:
             </p>
@@ -134,7 +140,7 @@
         <section id="user" >
            <h2>
               <span>4. </span>
-                User Interaction
+                Project's Timeline
             </h2>
             <p>
             
