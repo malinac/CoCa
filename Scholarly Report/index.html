@@ -132,12 +132,10 @@
             <p>Date and time is amongst the most difficult data for machines to understand, and our application is based precisely on that. To make dates unambiguous, use the time tag along with the datetime attribute. The value of the datetime attribute is the date specified using YYYY-MM-DD format. Here's an example of using microdata extracted from our code</p>
             <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
                 <div class="boxed">  <xmp>
-                    <li onclick="openForm()"><time datetime="2018-11-01"> 1</time></li>
+                    <li><time datetime="2018-12-2">2</time></li>
                 </xmp></div></figure>
         </section>
-        
-        
-        
+
         <section id="user" >
            <h2>
               <span>4. </span>
@@ -152,6 +150,7 @@
             <img alt="Interface implementation " src="img/sec.png" />
             <h3>Second Stage</h3>
             <p>Within this stage we developed a stronger idea about how our application will behave. We built the project's architecture, and we also started to work at the final widget form.</p>
+            <img src="img/widget1.png">
         </section>
         
         
@@ -168,107 +167,39 @@
 
             <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
              <div class="boxed">  <xmp>
-                   
-     <div class="intro">
-         <h1 style= "text-align: center;font-family: 
-               'Brush Script MT';font-size: 3em;color: crimson;">Coca</h1>
-          <h2 style="text-align: center">
-               Your much needed planner.</h2>
-          <p style="text-align: center">
-               With Coca, remembering your friend's birthday won't be a chore anymore.</p>
-          <p style="text-align: center">
-               You can customize colors, fonts size, dimension and everything in between, 
-               so that it's easier to keep track of parties, work meetings and daily tasks.</p>
-          <p style="text-align: center">
-               It's easy, it's intuitive! Start planning today!</p>
-    </div>
-                        
+
+                 {
+
+                 "manifest_version": 2,
+                 "name": "Coca",
+                 "version": "1.0",
+
+                 "description": "Calendar widget",
+                 "homepage_url": "https://github.com/malinac/CoCa",
+                 "icons": {
+                 "48": "icons/calendar-512.png"
+                 },
+
+                 "permissions": [
+                 "activeTab", "sessions", "storage", "notifications"
+                 ],
+
+                 "browser_action": {
+                 "default_icon": "icons/calendar-512.png",
+                 "default_title": "CoCa",
+                 "default_popup": "popup/coca.html"
+                 }
+
+
+                 }
 
                  </xmp></div>
               </figure>
             
-            <p>
-            
-                The calendar html part was made like this :
-            </p>
-            <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
-             <div class="boxed">  <xmp>
-                   <div class="coca">
-    <div class="calendar">
-        <header>
-            <h1>November 2018</h1>
-        </header>
 
-        <ul class="weekdays">
-            <li>
-                <abbr title="S">Sunday</abbr>
-            </li>
-            <li>
-                <abbr title="M">Monday</abbr>
-            </li>
-            <li>
-                <abbr title="T">Tuesday</abbr>
-            </li>
-            <li>
-                <abbr title="W">Wednesday</abbr>
-            </li>
-            <li>
-                <abbr title="T">Thursday</abbr>
-            </li>
-            <li>
-                <abbr title="F">Friday</abbr>
-            </li>
-            <li>
-                <abbr title="S">Saturday</abbr>
-            </li>
-        </ul>
-
-        <ul class="day-grid">
-            <li class="month=prev">28</li>
-            <li class="month=prev">29</li>
-            <li class="month=prev">30</li>
-            <li class="month=prev">31</li>
-            <li onclick="openForm()">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>23</li>
-            <li>24</li>
-            <li>25</li>
-            <li>26</li>
-            <li>27</li>
-            <li>28</li>
-            <li>29</li>
-            <li>30</li>
-            <li class="month-next">1</li>
-        </ul>
-
-            
-            
-            </xmp></div>
-              </figure>
-        </section>
         
         
-        <section id="conclu" >
+        <section id="conclusion" >
            <h2>
               <span>6. </span>
                 Conclusions
@@ -283,25 +214,3 @@
         
     </body>
 </html>
-<!--
-
-    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
-    [::::::::::::::      ::::::::::::::]
-    [::::::::::::::      ::::::::::::::]
-    [::::::[[[[[[[:      :]]]]]]]::::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[     CODE THE WEB     ]:::::]
-    [:::::[  http://brackets.io  ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [::::::[[[[[[[:      :]]]]]]]::::::]
-    [::::::::::::::      ::::::::::::::]
-    [::::::::::::::      ::::::::::::::]
-    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
-
--->
