@@ -115,6 +115,7 @@
             <p>
                 In order to achieve this, we are going to use the Notification API, which is used to configure and display desktop notifications to the user.
             </p>
+            <img  alt="Use case" src="img/usecase.png">
             <h3>Taking over data from Google Calendar</h3>
             <p>
                 Using the Google Calendar API lets us integrate our app with Google Calendar. This will allow us to display, create and modify calendar events as well as work with many other calendar-related objects.
@@ -128,7 +129,11 @@
             <p> What we chose to do is using the Web Storage Api, which provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.</p>
             <h3>Microdata</h3>
             <p>Search engines, web crawlers, and browsers can extract and process Microdata from a web page and use it to provide a richer browsing experience for users. Search engines benefit greatly from direct access to this structured data because it allows them to understand the information on web pages and provide more relevant results to users.</p>
-
+            <p>Date and time is amongst the most difficult data for machines to understand, and our application is based precisely on that. To make dates unambiguous, use the time tag along with the datetime attribute. The value of the datetime attribute is the date specified using YYYY-MM-DD format. Here's an example of using microdata extracted from our code</p>
+            <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
+                <div class="boxed">  <xmp>
+                    <li onclick="openForm()"><time datetime="2018-11-01"> 1</time></li>
+                </xmp></div></figure>
         </section>
         
         
@@ -139,20 +144,14 @@
                 Project's Timeline
             </h2>
             <h3>First Stage</h3>
+            <p>During the first stage, we set up our prototype, as well as our main goals for the project. We also created the presentation page for our application.</p>
             <p>
                 Here you can see our first prototipe:
             </p>
             <img alt="First concept " src="img/first.jpg" />
-
-            <p>
-
-                As we wanted the calendar to be a cool one , we've add a bit color to it and a strong logo and a good motivation why you should use it.
-            </p>
-            <p>
-
-                In the following image you can see our progress until now, how we create the responsive interface within the standard HTML and CSS:
-            </p>
             <img alt="Interface implementation " src="img/sec.png" />
+            <h3>Second Stage</h3>
+            <p>Within this stage we developed a stronger idea about how our application will behave. We built the project's architecture, and we also started to work at the final widget form.</p>
         </section>
         
         
@@ -166,10 +165,7 @@
             <p>
              The source code for the interfae shown in the second image will be structured like this : 
             </p>
-            <p>
-            
-                The felt side where we have the logo and the motivation has been made like this : 
-            </p>
+
             <figure typeof="schema:SoftwareSourceCode"  role="doc-example">
              <div class="boxed">  <xmp>
                    

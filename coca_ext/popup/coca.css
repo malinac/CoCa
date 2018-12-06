@@ -55,3 +55,40 @@ header {
     display: inline-block;
     margin: 10px;
 }
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: fit-content;
+    padding: 5px;
+    background-color: #dcccc8;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #E99787;
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+
+ul.todo li{
+    width: 100%;
+    font-size: 1em;
+    display: block;
+}
+ul.todo li.checked {
+    color: #000000;
+    text-decoration: line-through;
+}
