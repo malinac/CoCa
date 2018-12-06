@@ -108,7 +108,7 @@
             <p>The user should be able to control things like colour scheme, font size and overall dimension, so that the experience is as pleasurable as it can be. They can do such thing by using the menu, where all of these options are listed.</p>
             <h3>Export Data </h3>
             <p>The user should be able to request exporting data in any format that is according to the iCalendar standard. The iCalendar standard is an open standard for exchanging calendar and scheduling information between users and computers. This thing is possible through the Export button. </p>
-            <h3>Event handler</h3>
+            <h3>Event manager</h3>
             <p>
                 The purpose of this widget isn't to be a calendar per se, but a scheduler. Therefore, it must be able to store the dates and the events that are relevant for the user, in a friendly and intuitive way. Also, it should notify the user about the events that are due on a current day.
             </p>
@@ -116,6 +116,8 @@
                 In order to achieve this, we are going to use the Notification API, which is used to configure and display desktop notifications to the user.
             </p>
             <img  alt="Use case" src="img/usecase.png">
+            <p>This is our prototype about how the event manager should work.</p>
+            <img src="img/evmanager.png">
             <h3>Taking over data from Google Calendar</h3>
             <p>
                 Using the Google Calendar API lets us integrate our app with Google Calendar. This will allow us to display, create and modify calendar events as well as work with many other calendar-related objects.
@@ -197,9 +199,15 @@
                  </xmp></div>
               </figure>
             
-
-        
-        
+            <p>The key 'permisions' enables extensions to request extra permissions at runtime, after they have been installed.</p>
+            <h4>activeTab</h4>
+            <p> If an extension has the activeTab permission, then when the user interacts with the extension, the extension is granted extra privileges for the active tab only.</p>
+            <h4>sessions</h4>
+            <p>Use the sessions API to list, and restore, tabs and windows that have been closed while the browser has been running.</p>
+            <h4>storage</h4>
+            <p>Enables extensions to store and retrieve data, and listen for changes to stored items.</p>
+            <h4>notifications</h4>
+            <p>Display notifications to the user, using the underlying operating system's notification mechanism.</p>
         <section id="conclusion" >
            <h2>
               <span>6. </span>
