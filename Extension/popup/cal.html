@@ -9,80 +9,49 @@
 </head>
 <body>
 <div class="intro">
-<h1 style= "text-align: center;font-family: 'Brush Script MT';font-size: 3em;color: crimson;">Coca</h1>
+<h1 style= "text-align: center;font-family: 'Brush Script MT';font-size: 3em;color: #ec364f;">Coca</h1>
 <h2 style="text-align: center">Your much needed planner.</h2>
     <p style="text-align: center">With Coca, remembering your friend's birthday won't be a chore anymore.</p>
     <p style="text-align: center">You can customize colors, fonts size, dimension and everything in between, so that it's easier to keep track of parties, work meetings and daily tasks.</p>
     <p style="text-align: center">It's easy, it's intuitive! Start planning today!</p>
 </div>
 <div class="coca">
-    <div class="calendar">
-        <header>
-            <h1>November 2018</h1>
-        </header>
-
-        <ul class="weekdays">
-            <li>
-                <abbr title="S">Sunday</abbr>
-            </li>
-            <li>
-                <abbr title="M">Monday</abbr>
-            </li>
-            <li>
-                <abbr title="T">Tuesday</abbr>
-            </li>
-            <li>
-                <abbr title="W">Wednesday</abbr>
-            </li>
-            <li>
-                <abbr title="T">Thursday</abbr>
-            </li>
-            <li>
-                <abbr title="F">Friday</abbr>
-            </li>
-            <li>
-                <abbr title="S">Saturday</abbr>
-            </li>
-        </ul>
-
-        <ul class="day-grid">
-            <li class="month=prev">28</li>
-            <li class="month=prev">29</li>
-            <li class="month=prev">30</li>
-            <li class="month=prev">31</li>
-            <li onclick="openForm()">1</li>
-            <li><time datetime="2018-12-2">2</time></li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>23</li>
-            <li>24</li>
-            <li>25</li>
-            <li>26</li>
-            <li>27</li>
-            <li>28</li>
-            <li>29</li>
-            <li>30</li>
-            <li class="month-next">1</li>
-        </ul>
+    <div class="calendar disable-selection" id="calendar">
+        <div class="left-side">
+            <div class="current-day text-center">
+                <h1 class="calendar-left-side-day"></h1>
+                <div class="calendar-left-side-day-of-week"></div>
+            </div>
+            <div class="current-day-events">
+                <div>Current Events:</div>
+                <ul class="current-day-events-list"></ul>
+            </div>
+            <div class="add-event-day">
+                <input type="text" class="add-event-day-field" placeholder="Create an Event">
+                <span class="fa fa-plus-circle cursor-pointer add-event-day-field-btn"></span>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="text-right calendar-change-year">
+                <div class="calendar-change-year-slider">
+                    <span class="fa fa-caret-left cursor-pointer calendar-change-year-slider-prev"></span>
+                    <span class="calendar-current-year"></span>
+                    <span class="fa fa-caret-right cursor-pointer calendar-change-year-slider-next"></span>
+                </div>
+            </div>
+            <div class="calendar-month-list">
+                <ul class="calendar-month"></ul>
+            </div>
+            <div class="calendar-week-list">
+                <ul class="calendar-week"></ul>
+            </div>
+            <div class="calendar-day-list">
+                <ul class="calendar-days"></ul>
+            </div>
+        </div>
     </div>
+
+
     <div class="option">
     <h3>Color</h3>
     <label class="container">Red
@@ -149,31 +118,11 @@
     <button class="button">Save options</button>
     <button class="button" onclick="openForm2()">Export</button>
 </div>
-
-<div class="form-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
-        <h2 style="text-align: center">Events</h2>
-        <ul class="todo" style="display: block">
-            <li class="checked">Proiect Cliw</li>
-            <li>Seminar SI</li>
-        </ul>
-        <button type="submit" class="button">Delete</button>
-        <button type="submit" class="button">Add</button>
-        <button type="button" class="button" onclick="closeForm()"><i class="fa fa-close"></i></button>
-    </form>
-
 </div>
 
 
-<div class="form-popup" id="myForm2">
-    <form action="/action_page.php" class="form-container">
-        <button type="submit" class="button">Export text</button>
-        <button type="submit" class="button">Export JSON</button>
-        <button type="submit" class="button">Export XML</button>
-        <button type="button" class="button" onclick="closeForm2()"><i class="fa fa-close"></i></button>
-    </form>
-</div>
-<script src="openForms.js"></script>
+
+<script async src="calendar.js"></script>
 
 </body>
 </html>
