@@ -19,6 +19,7 @@ background-color: #EED8C9;
     width: 75%;
     float: left;
     display: inline-flex;
+    margin-top: 7%;
 }
 
 
@@ -35,15 +36,6 @@ header {
     text-align: center;
 }
 
-
-li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin-left: 0;
-    font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
-}
 
 
 
@@ -238,11 +230,13 @@ body {
 .calendar .left-side {
     width: 30%;
     background: #ec364f;
-    float: left; }
+    float: left;
+    height: fit-content;
+}
 .calendar .current-day, .calendar .current-day-events {
     padding-top: 40px; }
 .calendar .current-day-events {
-    height: 70%; }
+    height: fit-content; }
 .calendar .current-day-events ul {
     padding-left: 30px;
     list-style: none; }
@@ -287,7 +281,7 @@ body {
     cursor: pointer;
     font-size: 16px; }
 .calendar .calendar-month li {
-    width: calc(460px / 12);
+    width: 8%;
     height: 30px;
     line-height: 30px;
     color: #868686;
@@ -296,7 +290,7 @@ body {
     color: #171717;
     font-weight: 600; }
 .calendar .calendar-days li {
-    width: calc(460px / 7);
+    width: 14%;
     height: 50px;
     line-height: 50px; }
 .calendar .calendar-days li:after {
@@ -330,6 +324,6 @@ body {
     color: #737373;
     border-top: 1px solid #ccc; }
 .calendar .calendar-week li {
-    width: calc(460px / 7);
+    width: 14%;
     height: 30px;
     line-height: 30px; }
