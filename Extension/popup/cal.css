@@ -40,7 +40,7 @@ header {
 
 
 
-option {
+.option {
         display: inline-grid;
         align-content: center;
         margin: auto;
