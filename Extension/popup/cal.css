@@ -6,13 +6,15 @@ background-color: #EED8C9;
 .intro{
     width: 25%;
     float: left;
-    background-color: #dcccc8;
     display: grid;
     height: -webkit-fill-available;
     font-size: 1em;
     color: #5d5b62;
     font-family: "Arial";
-
+    margin-top: 30%;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 /*Widgetul*/
 .coca{
@@ -126,51 +128,6 @@ header {
 
 
 
-
-/*
-@media only screen and (max-width: 768px) {
-    .intro{
-        width: 100%;
-        height: fit-content;
-    }
-    .coca{
-        width: 100%;
-        display: block;
-
-    }
-    .calendar{
-        width: 100%;
-        -webkit-transform:scale(1);
-        -moz-transform:scale(1);
-        -ms-transform:scale(1);
-        transform:scale(1);
-    }
-    .container{
-        display: inline-block;
-    }
-    .button{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-}
-@media all and (max-width: 1300px) {
-    ul {
-        grid-gap: .25em;
-    }
-
-    ul.weekdays li {
-        font-size: 0;
-    }
-
-    ul.weekdays > li abbr:after {
-        content: attr(title);
-        font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
-        text-align: center;
-    }
-}
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -228,7 +185,7 @@ body {
     padding: 30px;
     height: 100%; }
 .calendar .left-side {
-    width: 30%;
+    width: 40%;
     background: #ec364f;
     float: left;
     height: fit-content;
@@ -236,7 +193,7 @@ body {
 .calendar .current-day, .calendar .current-day-events {
     padding-top: 40px; }
 .calendar .current-day-events {
-    height: fit-content; }
+    height: 250px; }
 .calendar .current-day-events ul {
     padding-left: 30px;
     list-style: none; }
@@ -263,7 +220,7 @@ body {
     left: inherit;
     line-height: 34px; }
 .calendar .right-side {
-    width: 70%;
+    width: 60%;
     float: right; }
 .calendar .calendar-change-year {
     font-size: 20px; }
