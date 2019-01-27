@@ -1,6 +1,6 @@
 
 body{
-background-color: #EED8C9;
+background: #EED8C9;
 }
 
 .intro{
@@ -42,82 +42,8 @@ header {
 
 
 
-.option {
-        display: inline-grid;
-        align-content: center;
-        margin: auto;
-        width: min-content;
-    }
 
-
-
-/* Customize the label (the container) */
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 1em;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* Hide the browser's default radio button */
-.container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-/* Create a custom radio button */
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-    background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-    background-color: #ec364f;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
-    display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.container .checkmark:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-
+/*Calendarul*/
 * {
     margin: 0;
     padding: 0;
@@ -176,7 +102,7 @@ body {
     height: 100%; }
 .calendar .left-side {
     width: 40%;
-    background: #ec364f;
+    background-color: #ec364f;
     float: left;
     height: fit-content;
 }
@@ -264,7 +190,7 @@ body {
     background: #1400c7; }
 .calendar .calendar-days li.active-day:after {
     color: white;
-    background: #ec364f; }
+    background-color: #ec364f; }
 .calendar .calendar-week {
     margin-bottom: 30px;
     font-weight: 600;
@@ -274,3 +200,90 @@ body {
     width: 14%;
     height: 30px;
     line-height: 30px; }
+
+
+/*Optiunile*/
+.option {
+    display: inline-grid;
+    align-content: center;
+    margin: auto;
+    width: min-content;
+}
+
+
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #ec364f;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+/*Responsiveness*/
+@media only screen and (max-width: 1250px) {
+    .calendar{
+        transform: scale(0.75);
+    }
+    
+}

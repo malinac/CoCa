@@ -15,9 +15,10 @@
     <p style="text-align: center">You can customize colors, fonts size, dimension and everything in between, so that it's easier to keep track of parties, work meetings and daily tasks.</p>
     <p style="text-align: center">It's easy, it's intuitive! Start planning today!</p>
 </div>
+<!-- Calendarul propriu-zis-->
 <div class="coca">
     <div class="calendar disable-selection" id="calendar">
-        <div class="left-side">
+        <div class="left-side" id="ls">
             <div class="current-day text-center">
                 <h1 class="calendar-left-side-day"></h1>
                 <div class="calendar-left-side-day-of-week"></div>
@@ -62,17 +63,17 @@
     </label>
 
     <label class="container">Blue
-        <input type="radio" name="color" value="blue">
+        <input type="radio" name="color" value="blue" onclick="bluetheme()">
         <span class="checkmark"></span>
     </label>
 
-    <label class="container">Yellow
-        <input type="radio" name="color" value="yellow">
+    <label class="container">Orange
+        <input type="radio" name="color" value="yellow" onclick="yellowtheme()">
         <span class="checkmark"></span>
     </label>
 
     <label class="container">Green
-        <input type="radio" name="color" value="green">
+        <input type="radio" name="color" value="green" onclick="greentheme()">
         <span class="checkmark"></span>
     </label>
         <h3>Font Size</h3>
@@ -138,5 +139,6 @@
 <script async src="calendar.js"></script>
 <script src="font_sizing.js"></script>
 <script src="calendar_sizing.js"></script>
+<script src="color_changing.js"></script>
 </body>
 </html>
