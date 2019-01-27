@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce129c5d-f888-4845-a7c3-e5798bee92fe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Extension/popup/font_sizing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Extension/popup/calendar_sizing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Extension/popup/color_changing.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Extension/manifest.json" afterPath="$PROJECT_DIR$/Extension/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/cal.css" afterPath="$PROJECT_DIR$/Extension/popup/cal.css" />
       <change beforePath="$PROJECT_DIR$/Extension/popup/cal.html" afterPath="$PROJECT_DIR$/Extension/popup/cal.html" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/coca.css" afterPath="$PROJECT_DIR$/Extension/popup/coca.css" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/coca.html" afterPath="$PROJECT_DIR$/Extension/popup/coca.html" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/openForms.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,18 +19,28 @@
       <file leaf-file-name="cal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="89" column="83" lean-forward="false" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="83" />
+            <state relative-caret-position="700">
+              <caret line="139" column="33" lean-forward="false" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font_sizing.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="font_sizing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popup/font_sizing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar_sizing.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Extension/popup/calendar_sizing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -133,8 +139,10 @@
         <option value="$PROJECT_DIR$/Extension/popup/a.js" />
         <option value="$PROJECT_DIR$/Extension/popup/coca.html" />
         <option value="$PROJECT_DIR$/Extension/popup/cal.css" />
-        <option value="$PROJECT_DIR$/Extension/popup/cal.html" />
         <option value="$PROJECT_DIR$/Extension/popup/font_sizing.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/color_changing.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/cal.html" />
+        <option value="$PROJECT_DIR$/Extension/popup/calendar_sizing.js" />
       </list>
     </option>
   </component>
@@ -145,7 +153,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="252" />
     <option name="y" value="83" />
     <option name="width" value="727" />
@@ -335,15 +343,15 @@
       <workItem from="1548502792339" duration="2875000" />
       <workItem from="1548527172703" duration="4053000" />
       <workItem from="1548532068158" duration="16606000" />
-      <workItem from="1548607153208" duration="3648000" />
+      <workItem from="1548607153208" duration="4638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65330000" />
+    <option name="totallyTimeSpent" value="66320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -417,22 +425,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup/coca.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -618,10 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
+    <entry file="file://$PROJECT_DIR$/Extension/popup/color_changing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="89" column="83" lean-forward="false" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="83" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -630,6 +622,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="139" column="33" lean-forward="false" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/calendar_sizing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
           <folding />
         </state>
       </provider>
