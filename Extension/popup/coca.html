@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<header>
+<header id="logo">
 
     <div class="popup-title">
         <a data-href="calendar_ui_url" target="_blank" href="cal.html">
@@ -16,22 +16,17 @@
     </div>
 </header>
 
-<div class="events-section">
-    <div class="current-day-events">
-        <div>Current Events:</div>
-        <ul class="current-day-events-list"></ul>
-    </div>
-
-    <h2>Upcoming Events</h2>
-    <ul id="next events">
-        <li>Saturday, December 2018</li>
-        <p>Ziua constitutiei</p>
-    </ul>
+<div class="current-day-events">
+    <h1 id="today"></h1>
+    <div>Current Events:</div>
+    <ul class="current-day-events-list" id="curr-ev"></ul>
 </div>
 
 
 
 
+<script src="widgetColor.js"></script>
+<script src="getEvent.js"></script>
 
 </body>
 </html>
