@@ -57,81 +57,78 @@
     <div class="option">
     <h3>Color</h3>
     <label class="container">Red
-        <input type="checkbox" checked="checked">
+        <input type="radio" name="color" value="red" checked="checked">
         <span class="checkmark"></span>
     </label>
 
     <label class="container">Blue
-        <input type="checkbox">
+        <input type="radio" name="color" value="blue">
         <span class="checkmark"></span>
     </label>
 
     <label class="container">Yellow
-        <input type="checkbox">
+        <input type="radio" name="color" value="yellow">
         <span class="checkmark"></span>
     </label>
 
     <label class="container">Green
-        <input type="checkbox">
+        <input type="radio" name="color" value="green">
         <span class="checkmark"></span>
     </label>
         <h3>Font Size</h3>
         <label class="container">14
-            <input type="checkbox" checked="checked">
+            <input type="radio" checked="checked" name="font-size" value="14" onclick="smallfntsize()">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">16
-            <input type="checkbox">
+            <input type="radio" name="font-size" value="16" onclick="mediumfntsize()">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">18
-            <input type="checkbox">
+            <input type="radio" name="font-size" value="18" onclick="largefntsize()">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">20
-            <input type="checkbox">
+            <input type="radio" name="font-size" value="20" onclick="xlargefntsize()">
             <span class="checkmark"></span>
         </label>
 
         <h3>Dimension</h3>
         <label class="container">Small
-            <input type="checkbox" checked="checked">
+            <input type="radio" name="dimension" value="small">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">Medium
-            <input type="checkbox">
+            <input type="radio" name="dimension" value="medium">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">Large
-            <input type="checkbox">
+            <input type="radio" name="dimension" value="large">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">Extra Large
-            <input type="checkbox">
+            <input type="radio" name="dimension" value="xlarge">
             <span class="checkmark"></span>
         </label>
-
-    </div>
-    <div class="option">
         <h3>Export</h3>
         <label class="container">JSON
-            <input type="checkbox" checked="checked">
+            <input type="radio" name="export" value="json">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">xCal
-            <input type="checkbox">
+            <input type="radio" name="export" value="xcal">
             <span class="checkmark"></span>
         </label>
 
         <label class="container">Text
-            <input type="checkbox">
+            <input type="radio" name="export" value="text">
             <span class="checkmark"></span>
         </label>
 
@@ -139,6 +136,6 @@
 
 </div>
 <script async src="calendar.js"></script>
-
+<script src="font_sizing.js"></script>
 </body>
 </html>

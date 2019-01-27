@@ -4,7 +4,7 @@
   "version": "1.0",
 
   "description": "Calendar widget",
-  "homepage_url": "https://github.com/malinac/CoCa",
+  "homepage_url": "http://localhost:63342/CoCa/Extension/popup/cal.html?_ijt=ss9rr2att850mui60sirqrdr4",
   "icons": {
     "48": "icons/calendar-512.png"
   },
