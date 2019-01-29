@@ -16,6 +16,12 @@ background: #EED8C9;
     padding-left: 30px;
     padding-right: 20px;
 }
+#logo{
+    text-align: center;
+    font-family: 'Brush Script MT';
+    font-size: 3em;
+    color: #ec364f;
+}
 /*Widgetul*/
 .coca{
     width: 75%;
@@ -23,7 +29,6 @@ background: #EED8C9;
     display: inline-flex;
     margin-top: 7%;
 }
-
 
 /*Calendarul*/
 
