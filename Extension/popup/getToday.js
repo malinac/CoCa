@@ -15,16 +15,7 @@ function getToday() {
     console.log(typeof(today))
 }
 
-function getFormattedDate(date) {
-    return `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
-}
 
-function getTodaysEvents(){
-    today = getToday()
-    todayFormatted = getFormattedDate(today);
-    eventList = JSON.parse(localStorage.getItem("calendar-events"), (key, value)=>{
-        var node = document.createElement("LI");                 // Create a <li> node
-    
 window.onload =getToday()
-window.onload=getTodaysEvents()
+
 
