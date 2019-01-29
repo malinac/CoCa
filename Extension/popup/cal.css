@@ -124,8 +124,6 @@ body {
     left: 3px; }
 .calendar h1.calendar-left-side-day {
     font-size: 4em; }
-.calendar .add-event-day {
-    border-bottom: 1px solid white; }
 .calendar .add-event-day .add-event-day-field {
     border: none;
     background: transparent;
