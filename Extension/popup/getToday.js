@@ -22,7 +22,7 @@ function getToday() {
         }
     }
     else {
-        var node = document.createElement("LI");                 
+        var node = document.createElement("LI");
         var textnode = document.createTextNode("Nothing today");
         node.appendChild(textnode);
         document.getElementById("curr-ev").appendChild(node);
