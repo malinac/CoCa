@@ -24,12 +24,7 @@ function getTodaysEvents(){
     todayFormatted = getFormattedDate(today);
     eventList = JSON.parse(localStorage.getItem("calendar-events"), (key, value)=>{
         var node = document.createElement("LI");                 // Create a <li> node
-        var textnode = document.createTextNode(value);         // Create a text node
-        node.appendChild(textnode);                              // Append the text to <li>
-        document.getElementById("curr-ev").appendChild(node);
-})
-
-}
+    
 window.onload =getToday()
 window.onload=getTodaysEvents()
 
