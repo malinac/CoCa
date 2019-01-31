@@ -1,4 +1,5 @@
 function exportText() {
+
     eventList = JSON.parse(localStorage.getItem("calendar-events"));
     for (var key in eventList) {
         var t = "";
@@ -14,6 +15,7 @@ function exportText() {
             t = ""
         }
 }
+
 
 
 window.onload=exportText()

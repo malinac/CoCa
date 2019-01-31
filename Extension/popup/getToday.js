@@ -14,7 +14,7 @@ function getToday() {
     t = today.toString();
     eventList = JSON.parse(localStorage.getItem("calendar-events"));
     if(eventList.hasOwnProperty(t)){
-        for(i=0; i<=eventList[t].length-1; i++){
+        for(i=0; i<=eventList[t].length-1; i++){ 
             var node = document.createElement("LI");
             var textnode = document.createTextNode(eventList[t][i]);
             node.appendChild(textnode);
@@ -32,6 +32,6 @@ function getToday() {
 
 
 
-window.onload =getToday()
+window.onload = getToday()
 
 
