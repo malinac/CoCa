@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce129c5d-f888-4845-a7c3-e5798bee92fe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Extension/popup/json.html" afterPath="$PROJECT_DIR$/Extension/popup/json.html" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/xportCal.html" afterPath="$PROJECT_DIR$/Extension/popup/xportCal.html" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup/xportText.html" afterPath="$PROJECT_DIR$/Extension/popup/xportText.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/as.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/cal.css" afterPath="$PROJECT_DIR$/Extension/popup/cal.css" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/cal.html" afterPath="$PROJECT_DIR$/Extension/popup/cal.html" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/calendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/coca.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/coca.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup/widgetColor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Scholarly Report/index.html" afterPath="$PROJECT_DIR$/Scholarly Report/index.html" />
+      <change beforePath="$PROJECT_DIR$/Scholarly Report/index1.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,81 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="cal.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="784">
+              <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/json.html">
+      <file leaf-file-name="cal.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Extension/popup/cal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="190">
+              <caret line="221" column="1" lean-forward="false" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getToday.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/getToday.js">
+      <file leaf-file-name="c1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Extension/popup/c1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exportJSON.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/exportJSON.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xportxCal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/xportxCal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xportCal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/xportCal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xportText.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/xportText.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xportText.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/xportText.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="661">
+              <caret line="73" column="90" lean-forward="false" selection-start-line="73" selection-start-column="90" selection-end-line="73" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -105,26 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coca.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Extension/popup/coca.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -134,6 +79,11 @@
       <find>currentday</find>
       <find>formatted</find>
       <find>active-day</find>
+      <find>change-year-s</find>
+      <find>calendar</find>
+      <find>change-year-slider</find>
+      <find>id=&quot;calendar&quot;</find>
+      <find>.fa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +103,6 @@
         <option value="$PROJECT_DIR$/coca_ext/popup/openForms.js" />
         <option value="$PROJECT_DIR$/coca_ext/popup/coca.html" />
         <option value="$PROJECT_DIR$/THAT/index.html" />
-        <option value="$PROJECT_DIR$/Scholarly Report/index.html" />
         <option value="$PROJECT_DIR$/Scholarly Report/index1.html" />
         <option value="$USER_HOME$/Desktop/calendar-master/app/index.html" />
         <option value="$PROJECT_DIR$/Extension/popup/coca.css" />
@@ -167,19 +116,25 @@
         <option value="$PROJECT_DIR$/Extension/popup/calendar_sizing.js" />
         <option value="$PROJECT_DIR$/Extension/popup/widgetColor.js" />
         <option value="$PROJECT_DIR$/Extension/popup/getEvent.js" />
-        <option value="$PROJECT_DIR$/Extension/popup/calendar.js" />
         <option value="$PROJECT_DIR$/Extension/popup/as.js" />
         <option value="$PROJECT_DIR$/Extension/popup/color_changing.js" />
         <option value="$PROJECT_DIR$/Extension/popup/coca.html" />
-        <option value="$PROJECT_DIR$/Extension/popup/cal.css" />
         <option value="$PROJECT_DIR$/Extension/popup/exportJSON.js" />
         <option value="$PROJECT_DIR$/Extension/popup/xportxCal.js" />
         <option value="$PROJECT_DIR$/Extension/popup/xportText.js" />
         <option value="$PROJECT_DIR$/Extension/popup/getToday.js" />
-        <option value="$PROJECT_DIR$/Extension/popup/cal.html" />
         <option value="$PROJECT_DIR$/Extension/popup/xportText.html" />
         <option value="$PROJECT_DIR$/Extension/popup/xportCal.html" />
         <option value="$PROJECT_DIR$/Extension/popup/json.html" />
+        <option value="$PROJECT_DIR$/Scholarly Report/index.html" />
+        <option value="$PROJECT_DIR$/Extension/popup/scripts.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/calenda.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/calendar.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/c1.html" />
+        <option value="$PROJECT_DIR$/Extension/popup/cal.css" />
+        <option value="$PROJECT_DIR$/Extension/popup/abc.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/c1.js" />
+        <option value="$PROJECT_DIR$/Extension/popup/cal.html" />
       </list>
     </option>
   </component>
@@ -190,14 +145,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="252" />
-    <option name="y" value="83" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="853" />
+    <option name="y" value="56" />
     <option name="width" value="727" />
     <option name="height" value="795" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -210,7 +165,39 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CoCa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoCa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCa" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoCa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCa" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="popup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoCa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCa" type="462c0819:PsiDirectoryNode" />
+              <item name="Scholarly Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -352,15 +339,19 @@
       <workItem from="1548782797755" duration="9633000" />
       <workItem from="1548857952069" duration="6865000" />
       <workItem from="1548917956562" duration="4605000" />
-      <workItem from="1548922723326" duration="435000" />
+      <workItem from="1548922723326" duration="3211000" />
+      <workItem from="1549478205202" duration="5233000" />
+      <workItem from="1549549479252" duration="252000" />
+      <workItem from="1549708479052" duration="11576000" />
+      <workItem from="1549819907659" duration="6352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98970000" />
+    <option name="totallyTimeSpent" value="125159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -375,7 +366,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050520834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118229166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -392,36 +383,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.050520834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -434,11 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coca_ext/popup/coca.css" />
-    <entry file="file://$PROJECT_DIR$/coca_ext/popup/cal.html" />
-    <entry file="file://$PROJECT_DIR$/coca_ext/popup/openForms.js" />
-    <entry file="file://$PROJECT_DIR$/coca_ext/popup/coca.html" />
-    <entry file="file://$PROJECT_DIR$/THAT/index.html" />
     <entry file="file://$PROJECT_DIR$/coca_ext/popup/cal.css" />
     <entry file="file://$PROJECT_DIR$/coca_ext/manifest.json" />
     <entry file="file://$PROJECT_DIR$/coca_ext/popup/coca.css" />
@@ -460,46 +416,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scholarly Report/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/MyFirstSchedule/MindFusion.Scheduling.js" />
-    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/scripts/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="249" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/styles/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="111" column="19" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/scripts/all.js" />
+    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/calendar-master/app/styles/all.css" />
     <entry file="file://$PROJECT_DIR$/Extension/popup/openForms.js" />
     <entry file="file://$PROJECT_DIR$/Extension/icons/add.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scholarly Report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="216" column="100" lean-forward="false" selection-start-line="216" selection-start-column="100" selection-end-line="216" selection-end-column="100" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup/a2.html" />
@@ -522,97 +446,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/coca.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/coca.css" />
     <entry file="file://$PROJECT_DIR$/Extension/popup/calendar_sizing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/as.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="143" column="33" lean-forward="false" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/widgetColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/color_changing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/coca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/exportJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/as.js" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/widgetColor.js" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/coca.html" />
     <entry file="file://$PROJECT_DIR$/Extension/popup/xportText.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/getToday.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +468,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/xportCal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -632,11 +486,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup/xportCal.html">
+    <entry file="file://$PROJECT_DIR$/Extension/popup/exportJSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/getToday.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -644,6 +505,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scholarly Report/index1.html" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/c1.html" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/calenda.js" />
+    <entry file="file://$PROJECT_DIR$/Extension/popup/calendar.js" />
+    <entry file="file://$PROJECT_DIR$/Scholarly Report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="216" column="68" lean-forward="false" selection-start-line="216" selection-start-column="68" selection-end-line="216" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/color_changing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="221" column="1" lean-forward="false" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/abc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="110" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/c1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="73" column="90" lean-forward="false" selection-start-line="73" selection-start-column="90" selection-end-line="73" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup/cal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
           <folding />
         </state>
       </provider>
