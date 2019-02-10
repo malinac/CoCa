@@ -32,6 +32,10 @@ function jump() {
     showCalendar(currentMonth, currentYear);
 }
 
+function showDay(d, i) {
+    document.getElementById('dayNr').innerHTML = d;
+    document.getElementById('dayName').innerHTML = AVAILABLE_WEEK_DAYS[i];
+}
 function showCalendar(month, year) {
 
     let firstDay = (new Date(year, month)).getDay();
@@ -58,6 +62,7 @@ function showCalendar(month, year) {
             if (i === 0 && j < firstDay) {
                 let cell = document.createElement("td");
                 let cellText = document.createTextNode("");
+                cell.classList.add("unavailable-days");
                 cell.appendChild(cellText);
                 row.appendChild(cell);
             }
@@ -73,6 +78,7 @@ function showCalendar(month, year) {
                     document.getElementById('dayNr').innerHTML = date;
                     document.getElementById('dayName').innerHTML = AVAILABLE_WEEK_DAYS[j];
                 } // color today's date
+                cell.classList.add('cursor-pointer');
                 cell.appendChild(cellText);
                 row.appendChild(cell);
                 date++;

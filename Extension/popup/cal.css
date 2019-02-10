@@ -226,6 +226,10 @@ td:hover{
   background-color: #737373;
     border-radius: 10px
 }
+.unavailable-days:hover{
+    background-color: white;
+}
+
 
 /* Customize the label (the container) */
 .container {
@@ -267,12 +271,13 @@ td:hover{
 .fa-angle-right{
     font-size: 3em;
 }
-#monthAndYear{
+#monthAndYear {
     width: fit-content;
     float: left;
     padding-right: 5px;
     padding-left: 5px;
     font-size: 2em;
+}
 
 
 /* On mouse-over, add a grey background color */
