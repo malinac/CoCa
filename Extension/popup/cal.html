@@ -19,13 +19,13 @@
 <div class="coca">
     <div class="calendar disable-selection" id="calendar">
         <div class="left-side" id="ls">
-            <div class="current-day text-center">
-                <h1 class="calendar-left-side-day"></h1>
+            <div class="current-day text-center" itemscope itemtype="https://schema.org/Event">
+                <h1 class="calendar-left-side-day" itemprop="startDate"></h1>
                 <div class="calendar-left-side-day-of-week"></div>
             </div>
             <div class="current-day-events">
                 <div>Current Events:</div>
-                <ul class="current-day-events-list" id="curr-ev"></ul>
+                <ul class="current-day-events-list" id="curr-ev" itemprop="description"></ul>
             </div>
             <div class="add-event-day">
                 <input type="text" class="add-event-day-field" placeholder="Create an Event">

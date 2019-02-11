@@ -2,14 +2,17 @@
 function getToday() {
     var today = new Date();
     var dd = today.getDate();
-    var mm = today.getMonth(); //January is 0!
+    var mm = today.getMonth() + 1; //January is 0!
 
     var yyyy = today.getFullYear();
+    if(mm<10){
+        mm = '0' + mm;
+    }
     if (dd < 10) {
         dd = '0' + dd;
     }
 
-    var today = dd + '/' + mm + '/' + yyyy;
+    var today = yyyy + '-' + mm + '-' + dd;
     document.getElementById('today').innerHTML = today;
     t = today.toString();
     eventList = JSON.parse(localStorage.getItem("calendar-events"));

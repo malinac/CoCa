@@ -44,7 +44,7 @@ class CALENDAR {
 
     drawEvents() {
         let calendar = this.getCalendar();
-        let eventList = this.eventList[calendar.active.formatted] || ['No events available'];
+        let eventList = this.eventList[calendar.active.formatted] || ['There is not any events'];
         let eventTemplate = "";
         eventList.forEach(item => {
             eventTemplate += `<li>${item}</li>`;
@@ -230,8 +230,11 @@ class CALENDAR {
     }
 
     getFormattedDate(date) {
-        return `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
-    }
+        if(date.getMonth()<10){
+            return `${date.getFullYear()}-0${date.getMonth() +1}-${date.getDate()}`
+        }
+        else{return `${date.getFullYear()}-${date.getMonth() +1}-${date.getDate()}`;
+    }}
 
     range(number) {
         return new Array(number).fill().map((e, i) => i);
@@ -247,4 +250,4 @@ class CALENDAR {
     new CALENDAR({
         id: "calendar"
     })
-});
+})();
